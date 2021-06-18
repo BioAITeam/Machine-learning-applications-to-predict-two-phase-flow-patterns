@@ -60,16 +60,15 @@ conda install -c conda-forge xgboost
 ## Execution
 After installing all the Requirements, you must clone the repository using.
 ```
-git clone https://github.com/BioAITeam/
-Strategy-to-improve-CNN-applied-to-digital-image-steganalysis-in-the-spatial-domain.git
+git clone https://github.com/BioAITeam/Flow_Pattern_Classification.git
 ```
-If you will use colab, upload the cloned folder to drive, then open the folder "CNNs and SRM filters" and run the notebook of your choice.
+If you will use colab, upload the cloned folder to drive, then open the folder and run the notebook of your choice.
 
 if you are going to use your computer, install:
 ```
 conda install jupyter 
 ```
-Enter the cloned folder, then enter the "CNNs and SRM filters" folder and run the notebook of your choice.
+Enter the cloned folder, then enter the folder and run the notebook of your choice.
 
 ## Note 
 Before running the notebook, please verify that the file paths are correct.
