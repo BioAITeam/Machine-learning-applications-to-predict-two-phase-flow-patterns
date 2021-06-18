@@ -4,9 +4,10 @@ Recent advances in artificial intelligence with traditional machine learning alg
 ## Folders
 
 - **12 DB dataset and algorithms** In this folder, you will find all algorithms and implementations with the database 12 DB dataset. Please review the paper associated with this repository.
+- **DataDistribution** In this folder, a notebook shows the data distribution of each of the databases.
+- **Feature_selection** This folder shows the features of each of the databases. 
+- **Shoham dataset and algorithms** In this folder, you will find all algorithms and implementations with the database Shoham dataset. Please review the paper associated with this repository
 
-
- 
 ## Requirements
 This repository requires the following libraries and frameworks:
 
