@@ -51,11 +51,23 @@ conda install tensorflow-gpu
 Now, install the libraries.
 ```
 conda install -c conda-forge matplotlib
+```
+```
 conda install -c anaconda seaborn
+```
+```
 conda install -c anaconda scikit-learn
+```
+```
 conda install -c districtdatalabs yellowbrick
+```
+```
 pip install imbalanced-learn
+```
+```
 conda install -c bokeh bokeh
+```
+```
 conda install -c conda-forge xgboost
 ```
 ## Execution
