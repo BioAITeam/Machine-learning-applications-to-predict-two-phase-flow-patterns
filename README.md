@@ -1,12 +1,13 @@
 # Machine learning applications to predict two-phase flow patterns
 
 Recent advances in artificial intelligence with traditional machine learning algorithms and deep learning architectures solve complex classification problems. This work presents the performance of different artificial intelligence models to classify two-phase flow patterns, showing the best alternatives for this specific classification problem using two-phase flow regimes (liquid and gas) in pipes. Flow patterns are affected by physical variables such as superficial velocity, viscosity, density, and superficial tension. They also depend on the construction characteristics of the pipe, such as the angle of inclination and the diameter. We selected 12 databases (9,029 samples) to train and test machine learning models, considering these variables that influence the flow patterns. The primary dataset is Shoham (1982), containing 5,675 samples with six different flow patterns. An extensive set of metrics validated the results obtained. The most relevant characteristics for training the models using Shoham (1982) dataset are gas and liquid superficial velocities, angle of inclination, and diameter. Regarding the algorithms, the Extra Trees model classifies the flow patterns with the highest degree of fidelity, achieving a correct classification of 98.8%.
+
 ## Folders
 
-- **12 DB dataset and algorithms** In this folder, you will find all algorithms and implementations with the database 12 DB dataset. Please review the paper associated with this repository.
-- **DataDistribution** In this folder, a notebook shows the data distribution of each of the databases.
-- **Feature_selection** This folder shows the features of each of the databases. 
-- **Shoham dataset and algorithms** In this folder, you will find all algorithms and implementations with the database Shoham dataset. Please review the paper associated with this repository
+- **12 DB** In this folder, you will find all algorithms and implementations with the '12 DB' dataset. Please see the associated paper. 
+- **Databases** This folder contain the databases files for Shoham and '12 DB' for 6, 5, and 3 classes.
+- **FeatureSelection-DataDistribution-ROC_AUC_CI** This folder shows the feature selection process, data distribution, and ROC curves with the AUC, including the CI. 
+- **Shoham** In this folder, you will find all algorithms and implementations with the Shoham (1982) dataset. Also, please see the associated paper. 
 
 ## Requirements
 This repository requires the following libraries and frameworks:
@@ -14,20 +15,20 @@ This repository requires the following libraries and frameworks:
 - TensorFlow 
 - Matplotlib
 - Seaborn
-- scikit-learn
-- yellowbrick
-- bokeh
-- numPy 
+- Scikit-learn
+- Yellowbrick
+- Bokeh
+- NumPy
 - Time
-- random
-- os
-- xgboost
+- Random
+- OS
+- XGBoost
 
-This repository was developed in the Python3 (3.8) programming language.
+This repository was developed in the Python 3 (3.8) programming language.
 
 ## Package installation
 
-if you don't use google colab, We highly recommend to use and install Python packages within an Anaconda enviroment. To create, execute the command below:
+If you don't use google colab, We highly recommend to use and install Python packages within an Anaconda enviroment. To create, execute the command below:
 ```
 conda create --name MPF python=3.8
 ```
@@ -60,7 +61,7 @@ conda install -c conda-forge xgboost
 ## Execution
 After installing all the Requirements, you must clone the repository using.
 ```
-git clone https://github.com/BioAITeam/Flow_Pattern_Classification.git
+git clone https://github.com/BioAITeam/Machine-learning-applications-to-predict-two-phase-flow-patterns.git
 ```
 If you will use colab, upload the cloned folder to drive, then open the folder and run the notebook of your choice.
 
