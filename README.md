@@ -1,6 +1,30 @@
 # Machine learning applications to predict two-phase flow patterns
 
-Recent advances in artificial intelligence with traditional machine learning algorithms and deep learning architectures solve complex classification problems. This work presents the performance of different artificial intelligence models to classify two-phase flow patterns, showing the best alternatives for this specific classification problem using two-phase flow regimes (liquid and gas) in pipes. Flow patterns are affected by physical variables such as superficial velocity, viscosity, density, and superficial tension. They also depend on the construction characteristics of the pipe, such as the angle of inclination and the diameter. We selected 12 databases (9,029 samples) to train and test machine learning models, considering these variables that influence the flow patterns. The primary dataset is Shoham (1982), containing 5,675 samples with six different flow patterns. An extensive set of metrics validated the results obtained. The most relevant characteristics for training the models using Shoham (1982) dataset are gas and liquid superficial velocities, angle of inclination, and diameter. Regarding the algorithms, the Extra Trees model classifies the flow patterns with the highest degree of fidelity, achieving an accuracy of 98.8%. 
+Recent advances in artificial intelligence with traditional machine learning algorithms and deep learning architectures solve complex classification problems. This work presents the performance of different artificial intelligence models to classify two-phase flow patterns, showing the best alternatives for this specific classification problem using two-phase flow regimes (liquid and gas) in pipes. Flow patterns are affected by physical variables such as superficial velocity, viscosity, density, and superficial tension. They also depend on the construction characteristics of the pipe, such as the angle of inclination and the diameter. We selected 12 databases (9,029 samples) to train and test machine learning models, considering these variables that influence the flow patterns. The primary dataset is Shoham (1982), containing 5,675 samples with six different flow patterns. An extensive set of metrics validated the results obtained. The most relevant characteristics for training the models using Shoham (1982) dataset are gas and liquid superficial velocities, angle of inclination, and diameter. Regarding the algorithms, the Extra Trees model classifies the flow patterns with the highest degree of fidelity, achieving an accuracy of 98.8%.
+
+## Citing
+
+If you use our project for your research or if you find this paper and repository helpful, please consider citing the work:
+
+Arteaga-Arteaga HB, Mora-Rubio A, Florez F, Murcia-Orjuela N, Diaz-Ortega CE, Orozco-Arias S, delaPava M, Bravo-Ortíz MA, Robinson M, Guillen-Rondon P, Tabares-Soto R. 2021. Machine learning applications to predict two-phase flow patterns. PeerJ Computer Science 7:e798 [https://doi.org/10.7717/peerj-cs.798](https://doi.org/10.7717/peerj-cs.798)
+
+```
+@article{Arteaga2021MPF,
+ title = {Machine learning applications to predict two-phase flow patterns},
+ author = {Arteaga-Arteaga, Harold Brayan and Mora-Rubio, Alejandro and Florez, Frank and Murcia-Orjuela, Nicolas and Diaz-Ortega, Cristhian Eduardo and Orozco-Arias, Simon and delaPava, Melissa and Bravo-Ortíz, Mario Alejandro and Robinson, Melvin and Guillen-Rondon, Pablo and Tabares-Soto, Reinel},
+ year = 2021,
+ month = nov,
+ keywords = {Flow patterns classification, Machine learning, Deep learning, Extra trees, Feature extraction},
+ volume = 7,
+ pages = {e798},
+ journal = {PeerJ Computer Science},
+ issn = {2376-5992},
+ url = {https://doi.org/10.7717/peerj-cs.798},
+ doi = {10.7717/peerj-cs.798}
+}
+```
+
+This paper was published as a journal paper in PeerJ Computer Science. ([Webpage](https://peerj.com/articles/cs-798/#))
 
 ## Folders
 
